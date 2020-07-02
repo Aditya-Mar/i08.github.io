@@ -1,0 +1,315 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+.clear {
+  clear: left;
+}
+
+.container {
+  max-width: 1170px;
+  width: 100%;
+  padding: 0 15px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.top-wrapper {
+  padding: 100px 0 100px 0;
+  background-image: url(images/background.jpg);
+  background-size: cover;
+  color: white;
+  text-align: center;
+}
+
+.top-wrapper h1 {
+  font-size: 40px;
+  letter-spacing: 3px;
+  margin-bottom: 25px;
+}
+
+.top-wrapper h1 span{
+  color: #e67e22;
+}
+
+.top-wrapper h2 {
+  margin-bottom: 3px;
+  font-size: 20px;
+  letter-spacing: 3px;
+}
+
+.btn-wrapper {
+  text-align: center;
+  margin: 50px 0 0 0;
+}
+
+.btn-wrapper p {
+  margin: 10px 0;
+}
+
+.email {
+  background-color: #9b2b23;
+}
+
+.facebook {
+  background-color: #3b5998;
+}
+
+.twitter {
+  background-color: #55acee;
+}
+
+.instagram {
+  background-color: rgb(206, 81, 206);
+}
+
+.btn {
+  padding: 12px 14px;
+  color: white;
+  display: inline-block;
+  opacity: 0.8;
+  border-radius: 4px;
+  text-align: center;
+}
+
+.btn:hover {
+  opacity: 1;
+}
+
+.fa {
+  margin-right: 5px;
+}
+
+header {
+  height: 65px;
+  width: 100%;
+  background-color: #e67e22;
+  position :fixed;
+  top: 0;
+  z-index: 10;
+  animation-name: animasi;
+  animation-duration: 5s;
+}
+
+.logo {
+  width: 40px;
+  margin-top: 10px;
+}
+
+.header-left {
+  float: left;
+}
+
+.header-left h3 {
+  color: white;
+  float: right;
+  margin-left: 10px;
+}
+
+.header-right img{
+  width: 15px;
+  float: right;
+}
+
+.header-right {
+  float: right;
+  margin-right: -25px;
+}
+
+.header-right a {
+  line-height: 65px;
+  padding: 0 25px;
+  color: white;
+  display: block;
+  float: left;
+  transition: all 0.5s;
+}
+
+.header-right a:hover {
+  background-color: rgba(255, 255, 255, 0.3);
+}
+
+
+.menu-icon {
+  color: white;
+  float: right;
+  font-size: 25px;
+  padding: 21px 0;
+  display: none;
+}
+
+
+.lesson-wrapper {
+  padding-bottom: 80px;
+  padding-left: 5%;
+  padding-right: 5%;
+  background-color: #f7f7f7;
+  text-align: center;
+}
+
+.heading {
+  padding-top: 80px;
+  padding-bottom: 50px;
+  color: #5f5d60;
+}
+
+.heading h2 {
+  font-weight: normal;
+}
+
+.lesson {
+  float: left;
+  width: 25%;
+}
+
+.lesson:hover {
+  background-color: orange;
+  animation: example 5s ease;
+}
+
+.lesson:active {
+  position: relative;
+  top: 7px;
+  box-shadow: none;
+}
+
+.lesson-icon {
+  position: relative;
+}
+
+.gambar {
+  width: 200px;
+  margin: 20px 20px;
+  background-color: #e67e22;
+}
+
+.tombol1 {
+  height: 30px;
+  width: 55px;
+}
+
+.lesson-icon p {
+  top: 88%;
+  margin: 0px;
+  width: 100%;
+  color: white;
+  font-size: 20px;
+}
+
+.text-contents {
+  width: 80%;
+  display: inline-block;
+  margin-top: 15px;
+  font-size: 15px;
+  color: white;
+}
+
+.atas {
+  font-size: 25px;
+  list-style: none;
+  align-items: center;
+}
+
+.harga {
+  color:orange;
+  font-size: 20px;
+  text-align: center;
+}
+
+.harga-asli{
+  color:red;
+  font-size: 20px;
+}
+
+.heading h3 {
+  font-weight: normal;
+}
+
+.message-wrapper {
+  border-bottom: 1px solid #eee;
+  padding-bottom: 30px;
+  text-align: center;
+  background-color: rgb(214, 245, 88);
+}
+
+.message {
+  padding: 15px 40px;
+  background-color: #e67e22;
+  cursor: pointer;
+  box-shadow: 0 7px #d35400;
+  margin: 30px;
+  animation-name: animasi;
+  animation-duration: 5s;
+}
+
+.message:active {
+  position: relative;
+  top: 7px;
+  box-shadow: none;
+}
+
+.contact-form p {
+  font-size: 20px;
+  color: #e67e22;
+  padding: 5px;
+  margin-top: 20px;
+  margin-bottom: 0px;
+}
+
+.contact-form h3 {
+  font-size: 30px;
+  padding: 5px;
+}
+
+input, textarea {
+  height: 30px;
+  width: 400px;
+}
+
+footer img {
+  width: 30px;
+}
+
+footer p {
+  color: white;
+  font-size: 12px;
+}
+
+footer {
+  padding-top: 10px;
+  background-color: #e67e22;
+  padding-bottom: 20px;
+  float: none;
+  animation-name: animasi;
+  animation-duration: 5s;
+}
+
+.footer-right {
+  float: right;
+  margin-top: 40px;
+}
+
+footer h1 {
+  color: white;
+  text-align: center;
+  margin-bottom: 10px;
+}
+@keyframes animasi {
+  from {background-color: #2c3e50;}
+  to {background-color: #e67e22;}
+}
+
+@keyframes example {
+  from {background-color: red;}
+  to {background-color: orange;}
+}
+
